@@ -1,8 +1,5 @@
-package com.example.appsflyerapp.interviewquestions;
+package com.example.appsflyerapp.interviewquiz;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Random;
 

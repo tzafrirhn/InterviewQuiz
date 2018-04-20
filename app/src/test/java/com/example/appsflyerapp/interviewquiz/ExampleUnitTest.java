@@ -1,4 +1,4 @@
-package com.example.appsflyerapp.interviewquestions;
+package com.example.appsflyerapp.interviewquiz;
 
 import org.junit.Test;
 

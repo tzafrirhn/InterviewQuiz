@@ -1,7 +1,6 @@
-package com.example.appsflyerapp.interviewquestions;
+package com.example.appsflyerapp.interviewquiz;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Question {
