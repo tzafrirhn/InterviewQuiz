@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appsflyerapp.interviewquestions.MainActivity"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:background="#BBDEFB">
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="10dp">
+
+      <TextView
+          android:id="@+id/bitcoins_decalre"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Bitcoins:"
+          android:textAppearance="?android:textAppearanceMedium"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:textStyle="bold"
+          android:textAllCaps="true"
+          android:fontFamily="serif" />
+      <ImageView
+          android:id="@+id/first_bitcoin"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/bitcoin_icon"
+          android:layout_toRightOf="@id/bitcoins_decalre"
+          android:layout_marginLeft="10dp"/>
+      <ImageView
+          android:id="@+id/second_bitcoin"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/bitcoin_icon"
+          android:layout_toRightOf="@id/first_bitcoin"/>
+      <ImageView
+          android:id="@+id/third_bitcoin"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/bitcoin_icon"
+          android:layout_toRightOf="@id/second_bitcoin"/>
+      <ImageView
+          android:id="@+id/forth_bitcoin"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/bitcoin_icon"
+          android:layout_toRightOf="@id/third_bitcoin"
+          android:visibility="invisible"/>
+      <ImageView
+          android:id="@+id/fifth_bitcoin"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/bitcoin_icon"
+          android:layout_toRightOf="@id/forth_bitcoin"
+          android:visibility="invisible"/>
+
+   </RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <TextView
+          android:id="@+id/question_decalre"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" שאלה:"
+          android:textStyle="bold"
+          android:textAppearance="?android:textAppearanceLarge"/>
+
+      <TextView
+          android:id="@+id/question_number"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="1/20"
+          android:textAppearance="?android:textAppearanceLarge"
+          android:textStyle="bold"
+          android:layout_marginRight="10dp"/>
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/question"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="מה הפירוש של OOP?"
+       android:textAppearance="?android:textAppearanceLarge"
+       android:textStyle="italic"
+       android:textAlignment="center"
+       android:layout_marginTop="20dp"
+       android:layout_marginRight="10dp"/>
+   <Button
+       android:id="@+id/first_choice"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="תשובה 1"
+       android:textColor="@android:color/white"
+       android:background="@color/colorPrimary"
+       android:layout_margin="10dp"
+       android:layout_gravity="center"/>
+   <Button
+       android:id="@+id/second_choice"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="תשובה 2"
+       android:textColor="@android:color/white"
+       android:background="@color/colorPrimary"
+       android:layout_margin="10dp"
+       android:layout_gravity="center"/>
+   <Button
+       android:id="@+id/third_choice"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="תשובה 3"
+       android:textColor="@android:color/white"
+       android:background="@color/colorPrimary"
+       android:layout_margin="10dp"
+       android:layout_gravity="center"/>
+   <Button
+       android:id="@+id/forth_choice"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="תשובה 4"
+       android:textColor="@android:color/white"
+       android:background="@color/colorPrimary"
+       android:layout_margin="10dp"
+       android:layout_gravity="center"/>
+
+   <TextView
+       android:id="@+id/question_decalre"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="תגובה לפתרון"
+       android:textSize="20dp"
+       android:layout_gravity="center"/>
+
+</LinearLayout>
